@@ -1,0 +1,837 @@
+/*Body and common css start here*/
+
+
+body {
+	background: #eeeeee;
+	font-family: 'Open Sans', sans-serif;
+	padding: 0;
+}
+.yic_wrapper .m-top-20 {
+	margin-top: 20px;
+}
+.yic_wrapper {
+	margin: 10px 20px 0 2px;
+	background: #fff;
+	padding: 10px;
+}
+.yic_wrapper .form-control {
+	box-shadow: none;
+}
+.yic_wrapper p {
+	line-height: 25px;
+}
+.yic_wrapper .form-control {
+	border-color: #bbb;
+}
+.yic_wrapper input:focus {
+	border: 1px solid #31708f;
+}
+.yic_wrapper select:focus {
+	border: 1px solid #31708f;
+}
+.yic_wrapper textarea:focus {
+	border: 1px solid #31708f;
+}
+.yic_wrapper .margin0 {
+	margin: 0;
+}
+.yic_wrapper .tab-content {
+	background: #fff;
+	padding: 30px;
+	border: 1px solid #ddd;
+	border-top: 0;
+	min-height: 700px;
+}
+.yic_wrapper .alert-default {
+	color: #222;
+	background-color: #f9f9f9;
+	min-height: 355px;
+	border-color: #e2e2e2;
+}
+.head_sm_yic {
+	font-weight: bold;
+}
+/*Body and common css end here*/
+
+.yic-custom-row{ display: inline-block;
+width: 100%;}
+
+.yic-control-label{padding: 6px 0;
+margin: 0;}
+
+
+
+
+
+
+/*Main custom css start here*/
+
+
+/* Tab style css start here*/
+
+
+
+
+
+.yic_wrapper .tab-content ul {
+	margin: 0;
+	padding: 0;
+}
+.yic_wrapper .tab-content ul li {
+	list-style: none;
+	margin: 20px 0;
+	vertical-align: middle;
+	position: relative;
+}
+.yic_wrapper .tab-content ul li img.ui-datepicker-trigger {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.yic_wrapper .tab-content ul li .yic_export_all_btn.active {
+	background: #083312;
+	border-color: #083312;
+}
+.yic_wrapper .general_div ul li {
+	list-style: none;
+	margin: 7px 0;
+	padding: 0;
+}
+.yic_wrapper .general_div ul li label:first-child {
+	width: 50%;
+}
+/* Tab style css start here*/
+
+
+
+
+
+/*General tab and inner css start here*/
+
+
+.yic_wrapper .add {
+	border: 0;
+	font-size: 20px;
+	background: none;
+	color: #fff;
+}
+.yic_wrapper .remove {
+	border: 0;
+	font-size: 20px;
+	background: none;
+	color: #a94442;
+}
+.yic_wrapper .input-group-addon {
+	background-color: #449d44;
+	border: 1px solid #449d44;
+}
+.yic_moderators ul li {
+	float: left;
+	width: 100%;
+}
+.yic_moderators {
+	background: #f7f7f7;
+	padding: 20px;
+}
+.yic_wrapper .input-group input {
+	height: 36px;
+}
+.yic_wrapper .active_style {
+	color: #22b922;
+	font-weight: bold;
+}
+.yic_wrapper .inactive_style {
+	color: #252525;
+	font-weight: bold;
+}
+/*General tab and inner css end here*/
+
+
+
+
+
+
+
+
+/*Summary Report tab and inner css start here*/
+
+
+.yic_wrapper .tab-content .nav-pills li {
+	margin: 0;
+	border-top: 1px solid #337ab7;
+}
+.summary_div .tab-content {
+	border: 0;
+	border-left: 2px solid #337ab7;
+}
+.yic_wrapper .nav-pills>li>a {
+	border-radius: 0;
+}
+.yic_wrapper .date_chart_holder {
+	padding: 0 20px;
+}
+.yic_wrapper .tab-content .date_picker li {
+	margin: 0;
+	float: left;
+	margin-right: 5px;
+}
+.yic_wrapper .date_picker li strong, .yic_wrapper .date_picker li span {
+	display: inline-block;
+	margin-right: 5px;
+}
+.yic_wrapper .date_picker li span input {
+	display: inline-block;
+	margin-right: 5px;
+}
+.yic_wrapper .date_picker li span button {
+	display: inline-block;
+	background-color: transparent;
+	border: 0;
+	color: #000;
+	font-size: 28px;
+	vertical-align: bottom;
+}
+.yic_wrapper .date_picker li span input {
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	padding: 7px;
+}
+.yic_wrapper .date_picker li span input:focus {
+	border: 1px solid #31708f;
+	outline: 0;
+}
+/*.yic_wrapper .csv_file_holder a {
+	margin-top: 5px;
+}*/
+.yic_wrapper .line_chart {
+	padding-top: 50px;
+	overflow: hidden;
+}
+.yic_wrapper .line_chart .canvasjs-chart-credit {
+	display: none;
+}
+/*Summary Report tab and inner css end here*/
+
+
+
+
+.checkbox label.yic-fource-template {
+	padding: 0;
+}
+.checkbox input.yic_check_box {
+	position: absolute;
+	right: 5px;
+	top: 0;
+}
+/*Template tab and inner css start here*/
+
+
+.yic_wrapper .text_editor {
+	margin: 30px 0;
+}
+.main_table {
+	width: 50%;
+	vertical-align: top
+}
+/*Template tab and inner css end here*/
+
+
+
+
+
+
+
+
+
+
+
+/*Browse Reports tab and inner css start here*/
+
+
+
+
+
+.yic_wrapper table.dataTable thead th, table.dataTable thead td {
+	border-bottom: 1px solid #fff;
+}
+.yic_wrapper .table-striped>tbody>tr:nth-of-type(odd) {
+	background-color: #f7f7f7;
+}
+.yic_wrapper .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+	padding: 12px 8px;
+	border-top: 1px solid #e0e0e0;
+}
+.yic_wrapper .fa-lightbulb-o {
+	color: #5cb85c;
+}
+/*Browse Reports tab and inner css end here*/
+
+
+
+/*Guide tab and inner css start here*/
+
+
+.guide_div .btn {
+	margin: 20px 0 0;
+	padding: 15px;
+}
+.yic-support-wrapper, .yic-document-wrapper, .yic-ideas-wrapper, .yic-topics-wrapper,.yic-licence-wrapper,.yic-contact-wrapper {
+	min-height: 128px;
+	padding: 15px;
+	margin: 20px 0 0 0;
+	cursor: pointer;
+}
+.yic-contact-wrapper {
+	padding: 15px;
+	margin: 20px 0 0 0;
+	cursor: pointer;
+}
+.yic-support-wrapper p, .yic-document-wrapper p, .yic-ideas-wrapper p, .yic-topics-wrapper p, .yic-contact-wrapper p, .yic-licence-wrapper p,.yic-contact-wrapper p{
+	color: #000;
+	line-height: 20px;
+}
+.yic-support-wrapper {
+	border: 2px solid #0000ff;
+}
+.yic-support-wrapper:hover {
+	background: #ebf3ff;
+	border-color: #cde0fd;
+}
+.yic-support-wrapper::active:focus {
+background:#ebf3ff;
+border-color: #cde0fd;
+}
+.yic-support-wrapper i.fa {
+	color: #0000ff;
+}
+.yic-support-wrapper span strong {
+	color: #0000ff;
+}
+.yic-document-wrapper {
+	border: 2px solid #006600;
+}
+.yic-document-wrapper:hover {
+	background: #efffef;
+	border-color: #abeaab;
+}
+.yic-document-wrapper:active:focus {
+	background: #efffef;
+	border-color: #abeaab;
+}
+.yic-document-wrapper i.fa {
+	color: #006600;
+}
+.yic-document-wrapper span strong {
+	color: #006600;
+}
+.yic-ideas-wrapper {
+	border: 2px solid #8b4511;
+}
+.yic-ideas-wrapper:hover {
+	background: #fff8f3;
+	border-color: #ffe0c8;
+}
+.yic-ideas-wrapper:active:focus {
+	background: #fff8f3;
+	border-color: #ffe0c8;
+}
+.yic-ideas-wrapper i.fa {
+	color: #8b4511;
+}
+.yic-ideas-wrapper span strong {
+	color: #8b4511;
+}
+.yic-topics-wrapper {
+	border: 2px solid #800080;
+}
+.yic-topics-wrapper:hover {
+	background: #fffaff;
+	border-color: #ffdeff;
+}
+.yic-topics-wrapper:active:focus {
+	background: #fffaff;
+	border-color: #ffdeff;
+}
+.yic-topics-wrapper i.fa {
+	color: #800080;
+}
+.yic-topics-wrapper span strong {
+	color: #800080;
+}
+.yic-contact-wrapper {
+	border: 2px solid #2a78e4;
+}
+.yic-contact-wrapper:hover {
+	background: #f4f9ff;
+	border-color: #deecff;
+}
+.yic-contact-wrapper:active:focus {
+	background: #f4f9ff;
+	border-color: #deecff;
+}
+.yic-contact-wrapper i.fa {
+	color: #2a78e4;
+}
+.yic-contact-wrapper span strong {
+	color: #2a78e4;
+}
+.yic-error-msg {
+	color: #FF0004;
+}
+hr.dark-hr {
+	border-color: #222;
+	clear: both;
+}
+.yic-dark-font {
+	color: #222;
+}
+/*Guide tab and inner css end here*/
+
+
+/*Main custom css start here*/
+
+
+
+
+
+/*Admin frame style css start here*/
+
+
+.yic_sidebar {
+	background: #222;
+	width: 15%;
+	position: fixed;
+	height: 100vh;
+	float: left;
+}
+.content_holder {
+	float: left;
+	width: 85%;
+	margin-left: 15%;
+}
+.yic_sidebar ul {
+	margin: 0;
+	padding: 0;
+}
+.yic_sidebar ul li {
+	list-style: none;
+}
+.yic_sidebar ul li a {
+	color: #cccccc;
+	display: block;
+	width: 100%;
+	border-bottom: 1px solid #333;
+	line-height: 40px;
+	text-align: center;
+}
+.yic_sidebar ul li a:hover {
+	background: #0074a2;
+	text-decoration: none;
+	color: #fff;
+}
+/*Admin frame style css start here*/
+
+/*Table Style*/
+.yic-idea-table th {
+	background: #0073aa;
+	color: #fff;
+	padding: 5px;
+}
+.yic-idea-table tr td {
+	padding: 5px;
+}
+.yic-odd-even tr:nth-child(even) {
+	background: #eee
+}
+.yic-odd-even tr:nth-child(odd) {
+	background: #FFF
+}
+.theme-browser .theme .theme-name {
+	height: 48px;
+	padding: 0 20px;
+	line-height: 48px;
+}
+.yic_wrapper .tab-content .yic-shotcode-params > li {
+	width: 32%;
+	float: left;
+	padding: 1% 4% 0 0;
+}
+.yic_wrapper .tab-content .yic-shotcode-params > li ul:last-child {
+	border: 0;
+}
+.yic_wrapper .tab-content .yic-shotcode-params ul {
+	border-bottom: 1px solid #e6e6e6;
+	padding: 10px 0;
+}
+.yic_wrapper .tab-content .yic-shotcode-params li {
+	list-style: none;
+	margin: 5px 0;
+}
+.yic_shortcode_desc {
+	margin-top: 30px;
+}
+.yic_wrapper .tab-content .yic_shortcode_desc .well li {
+	margin: 0;
+}
+.yic_shortcode_bg {
+	background: #e9e9e9;
+	padding: 5px 32px;
+}
+.yic_multi_select_wrap select.SlectBox {
+	height: 40px;
+}
+.yic-no-result h3 {
+	color: #000;
+	font-weight: normal;
+}
+.yic-resource-centre p {
+	white-space: normal;
+}
+.yic-mt-0 {
+	margin-top: 0 !important;
+}
+
+.yic-mt-30{ margin-top:30px;}
+
+.yic-form-inline.yic-exp-cont-typ li {
+	margin-right: 20px !important;
+}
+/*Radio Style*/
+.radio-container {
+	display: block;
+	position: relative;
+	padding-left: 30px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 22px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+/* Hide the browser's default checkbox */
+.radio-container input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+}
+/* Create a custom checkbox */
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 22px;
+	width: 22px;
+	background-color: #eee;
+	border-radius: 3px;
+}
+/* On mouse-over, add a grey background color */
+.radio-container:hover input ~ .checkmark {
+	background-color: #ccc;
+}
+/* When the checkbox is checked, add a blue background */
+.radio-container input:checked ~ .checkmark {
+	background-color: #2196F3;
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+/* Show the checkmark when checked */
+.radio-container input:checked ~ .checkmark:after {
+	display: block;
+}
+/* Style the checkmark/indicator */
+.radio-container .checkmark:after {
+	left: 8px;
+	top: 3px;
+	width: 7px;
+	height: 14px;
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+/*Radio Style*/
+
+/*14-9-2018====================================*/
+
+.yic-flex-wrapper{
+	display:flex;
+	flex-direction: row;
+	width:100%;
+	margin:20px auto;
+}
+.yic-flex-wrapper .yic-col-2{
+	width:14%;
+}
+.yic-flex-wrapper .yic-col-8{
+	width:75%;
+}
+.yic-flex-wrapper .yic-col-1{
+	width:11%;
+}
+
+/*Plugin upgrade text css*/
+.yic-flex-container {
+  display: flex;
+  align-items: stretch;
+  background-color: #f1f1f1;
+}
+
+.yic-flex-container > div {
+	margin: 20px;
+  align-self: center;
+}
+.yic-upgrade-logo{ width: 30%;}
+.yic-upgrade-logo img{ width:100%}
+.yic_upgrade_para{ flex-basis: 80%;}
+.yic_upgrade_para p{ line-height:18px;}
+.yic_upgrade_para p:last-child{ margin-bottom:0;}
+.yic-mb-0{ margin-bottom:0;}
+/*Plugin upgrade text css*/
+
+
+
+@media screen and (max-width: 782px) {
+#yic_templates input[type=radio]:checked:before, input[type=checkbox]:checked:before {
+	float: left;
+	display: inline-block;
+	vertical-align: middle;
+	width: 16px;
+	font: 400 21px/1 dashicons;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+#yic_templates input[type=radio], input[type=checkbox] {
+	height: auto;
+	width: auto;
+}
+}
+/* Subhomoy ========================
+================================================*/
+
+.export-plain-text, .yic-expt-contrl .yic-form-inline {
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 5px !important;
+}
+.yic-expt-contrl label {
+	margin-bottom: 0;
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 500;
+	font-size: 13px;
+	color: #000;
+}
+.yic-expt-contrl input {
+	margin-top: 0;
+	margin-right: 4px;
+}
+.export-plain-text {
+	margin-right: 20px;
+}
+/*.yic-expt-contrl input[type="radio"]:checked,
+.yic-expt-contrl input[type="radio"]:not(:checked),
+.yic-expt-contrl input[type="checkbox"]:checked,
+.yic-expt-contrl input[type="checkbox"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+.yic-expt-contrl input[type="radio"]:checked + label,
+.yic-expt-contrl input[type="radio"]:not(:checked) + label,
+.yic-expt-contrl input[type="checkbox"]:checked + label,
+.yic-expt-contrl input[type="checkbox"]:not(:checked) + label
+{
+    color: #808080;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-left: 28px;
+    position: relative;
+}
+.yic-expt-contrl input[type="radio"]:checked + label:before,
+.yic-expt-contrl input[type="radio"]:not(:checked) + label:before,
+.yic-expt-contrl input[type="checkbox"]:checked + label:before,
+.yic-expt-contrl input[type="checkbox"]:not(:checked) + label:before {
+    background: #fff none repeat scroll 0 0;
+    border: 2px solid #01b7ff;
+    border-radius: 100%;
+    content: "";
+    height: 18px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 18px;
+}
+.yic-expt-contrl input[type="radio"]:checked + label:after,
+.yic-expt-contrl input[type="radio"]:not(:checked) + label:after,
+.yic-expt-contrl input[type="checkbox"]:checked + label:after,
+.yic-expt-contrl input[type="checkbox"]:not(:checked) + label:after {
+    background: #01b7ff none repeat scroll 0 0;
+    border-radius: 100%;
+    content: "";
+    height: 8px;
+    left: 5px;
+    position: absolute;
+    top: 5px;
+    transition: all 0.2s ease 0s;
+    width: 8px;
+}
+.yic-expt-contrl input[type="radio"]:not(:checked) + label:after,
+.yic-expt-contrl input[type="checkbox"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.yic-expt-contrl input[type="radio"]:checked + label:after,
+.yic-expt-contrl input[type="checkbox"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.yic-expt-contrl input[type="checkbox"]:checked + label:before,
+.yic-expt-contrl input[type="checkbox"]:not(:checked) + label:before {
+    border-radius: 2px;
+}
+.yic-expt-contrl input[type="checkbox"]:checked + label:after,
+.yic-expt-contrl  input[type="checkbox"]:not(:checked) + label:after {
+    border-radius:0;
+}*/
+
+/* Radio Button and Check Box  Custom */
+
+.yic-licence-wrapper {
+	border: 2px solid #ca4a1f;
+}
+.yic-licence-wrapper:hover,.yic-licence-wrapper::active:focus {
+    background: #ffab8f;
+    border-color: #bf4a23;
+}
+.yic-licence-wrapper i.fa, .yic-licence-wrapper span strong  {
+	color: #ca4a1f;
+}
+.yic-licence-wrapper:hover {
+	border: 2px solid #fa8861;
+	background: #ffebe5;
+}
+
+.yic-contact-wrapper {
+	border: 2px solid #2a78e4;
+}
+.yic-contact-wrapper:hover,.yic-contact-wrapper:active,.yic-contact-wrapper:focus {
+    background: #f4f9ff;
+    border-color: #deecff;
+}
+.yic-contact-wrapper i.fa, .yic-contact-wrapper span strong  {
+	color: #2a78e4;
+}
+
+
+
+
+/* Subhomoy ========================
+================================================*/
+
+
+
+/**************** Start Export CSS *******************/
+.yic-import-wrapper .yic_row {
+	margin-bottom: 15px;
+	display: inline-block;
+}
+.yic-import-wrapper button:focus {
+	outline: 0;
+}
+.yic_floating_info {
+	position: absolute;
+	left: -19px;
+	font-size: 22px;
+	z-index: 9999;
+	top: 3px
+}
+.yic-row-left-padding {
+	position: relative;
+	padding-left: 25px !important;
+}
+.yic-clear {
+	clear: both;
+}
+.btn-file {
+	position: relative;
+	overflow: hidden;
+}
+.btn-file input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	min-width: 100%;
+	min-height: 100%;
+	font-size: 100px;
+	text-align: right;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	outline: none;
+	background: white;
+	cursor: inherit;
+	display: block;
+}
+.yic-form-inline {
+	margin: 0;
+	padding: 0;
+}
+.yic-form-inline li {
+	display: inline-block;
+	margin: 0 3px !important;
+}
+.yic-import-wrapper .yic_url_row {
+	display: none;
+	margin-bottom: 20px;
+	float: left;
+}
+/*.yic-note{ color:#BA3838;}*/
+.yic_mt-4 {
+	margin-top: -4px;
+}
+/*.yic-well-sm { background-color: #f5f5f5; border: 1px solid #e3e3e3;height: 35px; line-height:35px; border: 1px solid #e3e3e3; border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05); box-shadow: inset 0 1px 1px rgba(0,0,0,.05); display: block; width: 100%; padding: 0 20px;}*/
+.yic-import-status_table {
+	max-height: 200px;
+	overflow: auto;
+}
+/**************** End Export CSS *******************/
+
+
+
+.table-fixed thead {
+	width: 97%;
+}
+.table-fixed tbody {
+	height: 230px;
+	overflow-y: auto;
+	width: 100%;
+}
+.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
+	display: block;
+}
+.table-fixed tbody td, .table-fixed thead > tr> th {
+	float: left;
+	border-bottom-width: 0;
+}
+
+
+
+.yic_error_select p.CaptionCont{
+	border: 1px solid #B50003;
+}
+
+
+.yic-validation-error{
+	color: #EC0105;
+}
